@@ -138,7 +138,7 @@ def exit_game
   exit 0
 end
 
-def show_single_key
+def keyboard_turn
   c = read_char
   good_turn = [' ', '.']
 

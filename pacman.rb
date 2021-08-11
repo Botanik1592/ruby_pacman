@@ -19,7 +19,7 @@ while @level <= @maps.size - 1
   tr3 = Thread.new do
     while @redraw
       sleep 0.09
-      show_single_key
+      keyboard_turn
     end
   end
 
